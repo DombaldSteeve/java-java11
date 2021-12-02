@@ -5,7 +5,7 @@ public class Account {
 	private Person owner;
 	private Integer balance;
 
-	public Account(Person owner, Integer balance) {
+	public Account() {
 		super();
 		this.owner = owner;
 		this.balance = balance;
